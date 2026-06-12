@@ -47,13 +47,24 @@ python generate_qa_dataset.py
 
 Parsed books are saved to `data/book_<id>.json`. Progress resumes automatically via `pipeline_progress.json`.
 
-### Full Q&A generation (GPU / Colab)
+### Full Q&A generation
+
+**From cached data** (after fetch is done):
 
 ```bash
-python generate_qa_dataset.py --generate-qa
+python3 generate_qa_from_cache.py
 ```
 
-Uses **Qwen2.5-7B-Instruct** (4-bit) locally. Output: `generated_questions_dataset.json`.
+- **No GPU:** auto-uses `Qwen2.5-0.5B-Instruct` on CPU (~13s/page, ~7–9 days for 51k pages)
+- **With GPU:** auto-uses `Qwen2.5-7B-Instruct` (4-bit)
+- Resumes via `qa_progress.json` — safe to stop/restart
+- Output: `generated_questions_dataset.json`
+
+**Fetch + Q&A in one step** (GPU / Colab):
+
+```bash
+python3 generate_qa_dataset.py --generate-qa
+```
 
 ### Options
 
