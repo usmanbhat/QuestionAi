@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+proxies.txt
+data/
+generated_questions_dataset.json
+pipeline_progress.json
+*.zip
