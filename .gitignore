@@ -6,4 +6,6 @@ data/*
 !data/manifest.json
 generated_questions_dataset.json
 pipeline_progress.json
+qa_progress.json
+qa_generation.log
 *.zip
