@@ -1,0 +1,306 @@
+{
+  "books": [
+    {
+      "book_id": 5171,
+      "title": "أصول السرخسي",
+      "page_count": 724,
+      "file": "data/book_5171.json"
+    },
+    {
+      "book_id": 10653,
+      "title": "أصول البزدوي",
+      "page_count": 324,
+      "file": "data/book_10653.json"
+    },
+    {
+      "book_id": 6267,
+      "title": "كشف الأسرار شرح أصول البزدوي",
+      "page_count": 1522,
+      "file": "data/book_6267.json"
+    },
+    {
+      "book_id": 5172,
+      "title": "أصول الشاشي",
+      "page_count": 149,
+      "file": "data/book_5172.json"
+    },
+    {
+      "book_id": 1801,
+      "title": "تقويم الأدلة في أصول الفقه",
+      "page_count": 456,
+      "file": "data/book_1801.json"
+    },
+    {
+      "book_id": 157,
+      "title": "الفصول في الأصول",
+      "page_count": 1256,
+      "file": "data/book_157.json"
+    },
+    {
+      "book_id": 19098,
+      "title": "متن المنار = منار الأنوار في أصول الفقه",
+      "page_count": 21,
+      "file": "data/book_19098.json"
+    },
+    {
+      "book_id": 2700,
+      "title": "التقرير والتحبير علي تحرير الكمال بن الهمام",
+      "page_count": 1005,
+      "file": "data/book_2700.json"
+    },
+    {
+      "book_id": 5181,
+      "title": "تيسير التحرير",
+      "page_count": 1287,
+      "file": "data/book_5181.json"
+    },
+    {
+      "book_id": 54481,
+      "title": "التوضيح في حل غوامض التنقيح=التوضيح في شرح التنقيح (719)",
+      "page_count": 1629,
+      "file": "data/book_54481.json"
+    },
+    {
+      "book_id": 6455,
+      "title": "شرح التلويح على التوضيح",
+      "page_count": 833,
+      "file": "data/book_6455.json"
+    },
+    {
+      "book_id": 14380,
+      "title": "فواتح الرحموت بشرح مسلم الثبوت",
+      "page_count": 1648,
+      "file": "data/book_14380.json"
+    },
+    {
+      "book_id": 20590,
+      "title": "تغيير التنقيح لابن كمال باشا",
+      "page_count": 391,
+      "file": "data/book_20590.json"
+    },
+    {
+      "book_id": 2115,
+      "title": "الأشباه والنظائر لابن نجيم",
+      "page_count": 361,
+      "file": "data/book_2115.json"
+    },
+    {
+      "book_id": 5901,
+      "title": "الرسالة للشافعي",
+      "page_count": 321,
+      "file": "data/book_5901.json"
+    },
+    {
+      "book_id": 4850,
+      "title": "المستصفى",
+      "page_count": 381,
+      "file": "data/book_4850.json"
+    },
+    {
+      "book_id": 915,
+      "title": "الموافقات",
+      "page_count": 3187,
+      "file": "data/book_915.json"
+    },
+    {
+      "book_id": 1098,
+      "title": "روضة الناظر وجنة المناظر",
+      "page_count": 1180,
+      "file": "data/book_1098.json"
+    },
+    {
+      "book_id": 2689,
+      "title": "البحر المحيط في أصول الفقه",
+      "page_count": 3419,
+      "file": "data/book_2689.json"
+    },
+    {
+      "book_id": 917,
+      "title": "إرشاد الفحول إلى تحقيق الحق من علم الأصول",
+      "page_count": 954,
+      "file": "data/book_917.json"
+    },
+    {
+      "book_id": 2532,
+      "title": "المحصول للرازي",
+      "page_count": 1995,
+      "file": "data/book_2532.json"
+    },
+    {
+      "book_id": 406,
+      "title": "الإحكام في أصول الأحكام لابن حزم",
+      "page_count": 1406,
+      "file": "data/book_406.json"
+    },
+    {
+      "book_id": 5626,
+      "title": "البرهان في أصول الفقه",
+      "page_count": 559,
+      "file": "data/book_5626.json"
+    },
+    {
+      "book_id": 6060,
+      "title": "اللمع في أصول الفقه للشيرازي",
+      "page_count": 168,
+      "file": "data/book_6060.json"
+    },
+    {
+      "book_id": 2817,
+      "title": "شرح تنقيح الفصول",
+      "page_count": 458,
+      "file": "data/book_2817.json"
+    },
+    {
+      "book_id": 1237,
+      "title": "تشنيف المسامع بجمع الجوامع",
+      "page_count": 1894,
+      "file": "data/book_1237.json"
+    },
+    {
+      "book_id": 5168,
+      "title": "الورقات",
+      "page_count": 24,
+      "file": "data/book_5168.json"
+    },
+    {
+      "book_id": 1109,
+      "title": "مختصر التحرير شرح الكوكب المنير",
+      "page_count": 2395,
+      "file": "data/book_1109.json"
+    },
+    {
+      "book_id": 5585,
+      "title": "نهاية السول شرح منهاج الوصول",
+      "page_count": 459,
+      "file": "data/book_5585.json"
+    },
+    {
+      "book_id": 2913,
+      "title": "العدة في أصول الفقه",
+      "page_count": 1780,
+      "file": "data/book_2913.json"
+    },
+    {
+      "book_id": 2839,
+      "title": "الفروق للقرافي = أنوار البروق في أنواء الفروق",
+      "page_count": 1059,
+      "file": "data/book_2839.json"
+    },
+    {
+      "book_id": 5174,
+      "title": "المدخل إلى مذهب الإمام أحمد لابن بدران",
+      "page_count": 456,
+      "file": "data/book_5174.json"
+    },
+    {
+      "book_id": 6051,
+      "title": "القواعد والفوائد الأصولية ومايتبعها من الأحكام الفرعية",
+      "page_count": 374,
+      "file": "data/book_6051.json"
+    },
+    {
+      "book_id": 97113,
+      "title": "مفتاح الوصول إلى بناء الفروع على الأصول",
+      "page_count": 378,
+      "file": "data/book_97113.json"
+    },
+    {
+      "book_id": 5169,
+      "title": "تخريج الفروع على الأصول",
+      "page_count": 324,
+      "file": "data/book_5169.json"
+    },
+    {
+      "book_id": 2213,
+      "title": "الوجيز في أصول الفقه الإسلامي",
+      "page_count": 946,
+      "file": "data/book_2213.json"
+    },
+    {
+      "book_id": 5186,
+      "title": "رفع الحاجب عن مختصر ابن الحاجب",
+      "page_count": 295,
+      "file": "data/book_5186.json"
+    },
+    {
+      "book_id": 4709,
+      "title": "المنخول",
+      "page_count": 517,
+      "file": "data/book_4709.json"
+    },
+    {
+      "book_id": 4018,
+      "title": "شرح المعتمد في أصول الفقه",
+      "page_count": 193,
+      "file": "data/book_4018.json"
+    },
+    {
+      "book_id": 1130,
+      "title": "قواطع الأدلة في الأصول",
+      "page_count": 950,
+      "file": "data/book_1130.json"
+    },
+    {
+      "book_id": 2486,
+      "title": "مقاصد الشريعة الإسلامية",
+      "page_count": 23,
+      "file": "data/book_2486.json"
+    },
+    {
+      "book_id": 5166,
+      "title": "التمهيد في تخريج الفروع على الأصول",
+      "page_count": 474,
+      "file": "data/book_5166.json"
+    },
+    {
+      "book_id": 90607,
+      "title": "شرح مختصر التحرير للفتوحي",
+      "page_count": 1887,
+      "file": "data/book_90607.json"
+    },
+    {
+      "book_id": 16740,
+      "title": "كشف الأسرار شرح أصول البزدوي ط_أخرى",
+      "page_count": 2201,
+      "file": "data/book_16740.json"
+    },
+    {
+      "book_id": 107508,
+      "title": "حاشية التوضيح والتصحيح لمشكلات كتاب التنقيح",
+      "page_count": 510,
+      "file": "data/book_107508.json"
+    },
+    {
+      "book_id": 25743,
+      "title": "مختصر التحرير في أصول الفقه",
+      "page_count": 107,
+      "file": "data/book_25743.json"
+    },
+    {
+      "book_id": 2776,
+      "title": "فتح القدير للكمال ابن الهمام",
+      "page_count": 5149,
+      "file": "data/book_2776.json"
+    },
+    {
+      "book_id": 41331,
+      "title": "تيسير التحرير ط- أخرى",
+      "page_count": 1796,
+      "file": "data/book_41331.json"
+    },
+    {
+      "book_id": 10724,
+      "title": "التوضيح في حل عوامض التنقيح",
+      "page_count": 744,
+      "file": "data/book_10724.json"
+    },
+    {
+      "book_id": 14201,
+      "title": "التقرير والتحبير علي تحرير الكمال بن الهمام ط-أخرى",
+      "page_count": 1297,
+      "file": "data/book_14201.json"
+    }
+  ],
+  "total_pages": 51866,
+  "total_books": 50
+}

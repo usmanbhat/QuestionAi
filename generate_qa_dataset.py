@@ -351,10 +351,34 @@ def run_pipeline(
         except Exception as exc:
             print(f"Error processing book {book_id}: {exc}")
 
+    write_manifest(book_ids)
     total_elapsed = time.time() - pipeline_start_time
     print(f"\nPipeline Complete! Generated {len(all_questions)} questions saved in: {FINAL_QA_FILE}")
     print(f"Parsed books saved under: {OUTPUT_DIR}")
     print(f"Total time elapsed: {format_time(total_elapsed)}")
+
+
+def write_manifest(book_ids: list[int]) -> None:
+    manifest = {"books": [], "total_pages": 0, "total_books": 0}
+    for book_id in book_ids:
+        book_path = OUTPUT_DIR / f"book_{book_id}.json"
+        if not book_path.is_file():
+            continue
+        book_data = json.loads(book_path.read_text(encoding="utf-8"))
+        page_count = len(book_data.get("pages", []))
+        manifest["books"].append(
+            {
+                "book_id": book_id,
+                "title": book_data.get("title"),
+                "page_count": page_count,
+                "file": str(book_path),
+            }
+        )
+        manifest["total_pages"] += page_count
+    manifest["total_books"] = len(manifest["books"])
+    manifest_path = OUTPUT_DIR / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Manifest: {manifest['total_books']} books, {manifest['total_pages']} pages -> {manifest_path}")
 
 
 def parse_args() -> argparse.Namespace:

@@ -2,7 +2,8 @@ __pycache__/
 *.py[cod]
 .env
 proxies.txt
-data/
+data/*
+!data/manifest.json
 generated_questions_dataset.json
 pipeline_progress.json
 *.zip
