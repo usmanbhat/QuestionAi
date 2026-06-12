@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+proxies.txt
+data/*
+!data/manifest.json
+generated_questions_dataset.json
+pipeline_progress.json
+qa_progress.json
+qa_generation.log
+*.zip

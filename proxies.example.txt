@@ -1,0 +1,13 @@
+# One proxy per line. Lines starting with # are ignored.
+# Formats supported:
+#   http://host:port
+#   http://user:pass@host:port
+#   socks5://host:port
+#
+# You can also set proxies via environment variable:
+#   export PROXY_LIST="http://proxy1:8080,http://proxy2:8080"
+#   export HTTPS_PROXY="http://proxy1:8080"
+#
+# Example (replace with your working proxies):
+# http://185.199.229.156:7492
+# http://user:password@proxy.example.com:8080
